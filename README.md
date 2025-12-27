@@ -151,9 +151,10 @@ M26    - Stop
 flashforge-finder-api-enhanced/
 ├── api/
 │   ├── app.py              # Flask server and routes
-│   ├── protocol.py         # G-code functions
+│   ├── protocol.py         # G-code command functions
 │   ├── socket_handler.py   # TCP communication
-│   └── regex_patterns.py   # Old parsing stuff
+│   ├── packets.py          # G-code command definitions
+│   └── regex_patterns.py   # Response parsing patterns
 ├── requirements.txt
 ├── README.md
 └── LICENSE
